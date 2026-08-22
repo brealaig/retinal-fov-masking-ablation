@@ -1,0 +1,22 @@
+experiment_id: aptos2019_no_mask
+dataset: aptos2019
+preprocessing: no_mask
+
+# Replace placeholders with the manuscript values.
+seed: null
+image_size: null
+architecture: EfficientNet-B0
+weights: null
+batch_size: null
+epochs: null
+
+optimizer:
+  name: null
+  learning_rate: null
+
+augmentation: null
+checkpoint_metric: null
+
+paths:
+  data_root: data/aptos2019
+  output_root: results/aptos2019

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and this repository."
+title: "Retinal Field-of-View Masking Ablation"
+type: software
+authors:
+  - family-names: "Cely Díez"
+    given-names: "Luis Alejandro"
+  - family-names: "Martínez Eslava"
+    given-names: "Gabriela"
+  - family-names: "Barón Velandia"
+    given-names: "Julio"
+repository-code: "https://github.com/<YOUR-GITHUB-USER>/retinal-fov-masking-ablation"
+license: MIT
+version: "0.1.0"
+date-released: "2026-08-22"
+keywords:
+  - diabetic retinopathy
+  - fundus imaging
+  - retinal field of view
+  - masking
+  - ablation study
+  - deep learning
+  - Grad-CAM

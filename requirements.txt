@@ -1,0 +1,15 @@
+# Replace these ranges with the exact versions used for the manuscript release.
+# Example workflow before release:
+#   pip freeze > requirements-lock.txt
+
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+opencv-python
+matplotlib
+Pillow
+tensorflow
+tqdm
+PyYAML

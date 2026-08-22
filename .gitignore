@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/*
+!data/README.md
+
+# Model checkpoints / large binaries
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+models/
+
+# Generated experiment artifacts
+runs/
+logs/
+tensorboard/
+
+# Temporary
+*.tmp
+*.log

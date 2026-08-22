@@ -1,0 +1,31 @@
+name: Reproducibility issue
+description: Report a problem reproducing a manuscript experiment
+title: "[Reproducibility]: "
+labels: ["reproducibility"]
+body:
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset
+      options:
+        - APTOS 2019
+        - EyePACS
+        - Messidor-2
+        - Other / not applicable
+  - type: dropdown
+    id: preprocessing
+    attributes:
+      label: Preprocessing strategy
+      options:
+        - No masking
+        - Hard masking
+        - Fixed feathering
+        - Adaptive feathering
+        - Other / not applicable
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description
+      description: Include the command, configuration, environment, and observed output.
+    validations:
+      required: true
