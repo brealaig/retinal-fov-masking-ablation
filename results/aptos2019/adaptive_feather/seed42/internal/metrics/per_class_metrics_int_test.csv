@@ -1,0 +1,6 @@
+variant,seed,split,class,support,TP,FP,FN,TN,sensitivity,precision,specificity
+adaptive_feather,42,int_test,0,91,88,0,3,92,0.967032967032967,1.0,1.0
+adaptive_feather,42,int_test,1,19,15,13,4,151,0.7894736842105263,0.5357142857142857,0.9207317073170732
+adaptive_feather,42,int_test,2,50,35,10,15,123,0.7,0.7777777777777778,0.924812030075188
+adaptive_feather,42,int_test,3,8,3,5,5,170,0.375,0.375,0.9714285714285714
+adaptive_feather,42,int_test,4,15,7,7,8,161,0.4666666666666667,0.5,0.9583333333333334

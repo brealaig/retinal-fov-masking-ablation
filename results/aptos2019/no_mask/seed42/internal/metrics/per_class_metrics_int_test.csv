@@ -1,0 +1,6 @@
+dataset,variant,seed,split,class,support,TP,FP,FN,TN,sensitivity,precision,specificity
+APTOS,no_mask,42,int_test,0,91,88,0,3,92,0.967032967032967,1.0,1.0
+APTOS,no_mask,42,int_test,1,19,14,5,5,159,0.7368421052631579,0.7368421052631579,0.9695121951219512
+APTOS,no_mask,42,int_test,2,50,39,13,11,120,0.78,0.75,0.9022556390977443
+APTOS,no_mask,42,int_test,3,8,4,7,4,168,0.5,0.36363636363636365,0.96
+APTOS,no_mask,42,int_test,4,15,9,4,6,164,0.6,0.6923076923076923,0.9761904761904762

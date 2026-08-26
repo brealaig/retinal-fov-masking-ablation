@@ -1,0 +1,30 @@
+{
+  "dataset": "APTOS",
+  "variant": "fixed_feather",
+  "seed": 123,
+  "temperature": 1.5500000000000007,
+  "calibration_nll": 0.5979756116867065,
+  "raw_val_calib": {
+    "accuracy": 0.7540106951871658,
+    "macro_F1": 0.5949662385024036,
+    "weighted_F1": 0.7524608577962406,
+    "balanced_accuracy": 0.5773052824368613,
+    "QWK": 0.8495740246444111,
+    "top2_accuracy": 0.9251336898395722,
+    "ECE": 0.1288692787847417,
+    "NLL": 0.6701680421829224,
+    "Brier": 0.33977019786834717
+  },
+  "temperature_scaled_val_calib": {
+    "accuracy": 0.7540106951871658,
+    "macro_F1": 0.5949662385024036,
+    "weighted_F1": 0.7524608577962406,
+    "balanced_accuracy": 0.5773052824368613,
+    "QWK": 0.8495740246444111,
+    "top2_accuracy": 0.9251336898395722,
+    "ECE": 0.07849086159690817,
+    "NLL": 0.5979756116867065,
+    "Brier": 0.3120250701904297
+  },
+  "note": "Temperatura ajustada usando solo val_calib. val_eval/int_test/hold_out no se usan para ajustar T."
+}

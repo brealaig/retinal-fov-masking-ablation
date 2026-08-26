@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-08-06T11:33:14",
+  "source_dataset": "EYEPACS",
+  "external_dataset": "MESSIDOR2",
+  "variant": "adaptive_feather",
+  "seed": 42,
+  "n": 1744,
+  "weights": "C:\\Users\\USER\\Desktop\\Articulo\\Pipeline\\OnTheFly\\experiments\\EYEPACS_adaptive_feather_seed42\\final_all_phases.weights.h5",
+  "layer_name": "top_conv",
+  "device": {
+    "operation": "gradcam_external",
+    "requested_mode": "gpu",
+    "requested_gpu_index": 0,
+    "selected_device": "GPU",
+    "selected_tensorflow_device": "/GPU:0",
+    "selected_device_name": "NVIDIA GeForce RTX 4060",
+    "actual_probe_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+    "physical_gpu_count": 1,
+    "physical_cpu_count": 1,
+    "cuda_visible_devices": "0",
+    "tensorflow_version": "2.10.0",
+    "gpu_prioritized": false
+  },
+  "path_resolution": {
+    "dataset_root": "C:\\Users\\USER\\Desktop\\Articulo\\Datasets\\MESSIDOR2",
+    "images_root": "C:\\Users\\USER\\Desktop\\Articulo\\Datasets\\MESSIDOR2\\adaptive_feather",
+    "images_root_mode": "variant_folder",
+    "variant": "adaptive_feather",
+    "n_labels": 1744,
+    "resolved_direct": 1057,
+    "resolved_recursive_exact": 0,
+    "resolved_by_basename": 687,
+    "extension_mismatch_count": 687,
+    "duplicate_filename_count": 0,
+    "ambiguous_basename_count": 0,
+    "missing": 0,
+    "missing_examples": [],
+    "ambiguous_examples": [],
+    "valid": true
+  },
+  "methodological_note": "Grad-CAM externo se calculó sin usar el dataset externo para entrenamiento, calibración o selección de checkpoint. El mapa se genera sobre la clase predicha del modelo."
+}

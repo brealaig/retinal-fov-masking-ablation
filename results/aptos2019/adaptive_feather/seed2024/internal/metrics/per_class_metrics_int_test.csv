@@ -1,0 +1,6 @@
+dataset,variant,seed,split,class,support,TP,FP,FN,TN,sensitivity,precision,specificity
+APTOS,adaptive_feather,2024,int_test,0,91,89,0,2,92,0.978021978021978,1.0,1.0
+APTOS,adaptive_feather,2024,int_test,1,19,14,7,5,157,0.7368421052631579,0.6666666666666666,0.9573170731707317
+APTOS,adaptive_feather,2024,int_test,2,50,39,10,11,123,0.78,0.7959183673469388,0.924812030075188
+APTOS,adaptive_feather,2024,int_test,3,8,3,7,5,168,0.375,0.3,0.96
+APTOS,adaptive_feather,2024,int_test,4,15,7,7,8,161,0.4666666666666667,0.5,0.9583333333333334

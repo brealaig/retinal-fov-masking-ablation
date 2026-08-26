@@ -1,0 +1,14 @@
+{
+  "operation": "gradcam_internal",
+  "requested_mode": "gpu",
+  "requested_gpu_index": 0,
+  "selected_device": "GPU",
+  "selected_tensorflow_device": "/GPU:0",
+  "selected_device_name": "NVIDIA GeForce RTX 4060",
+  "actual_probe_device": "/job:localhost/replica:0/task:0/device:GPU:0",
+  "physical_gpu_count": 1,
+  "physical_cpu_count": 1,
+  "cuda_visible_devices": "0",
+  "tensorflow_version": "2.10.0",
+  "gpu_prioritized": false
+}

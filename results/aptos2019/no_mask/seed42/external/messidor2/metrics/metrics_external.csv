@@ -1,0 +1,2 @@
+source_dataset,external_dataset,variant,seed,split,n,temperature,temperature_source,accuracy,macro_F1,weighted_F1,balanced_accuracy,QWK,top2_accuracy,ECE,NLL,Brier
+APTOS,MESSIDOR2,no_mask,42,external_test,1744,1.5500000000000007,source_val_calib,0.5974770642201835,0.22881658172051078,0.4677578305906475,0.2465515143345344,0.2263801176968231,0.7786697247706422,0.22998462090217467,1.3536732196807861,0.6400177478790283

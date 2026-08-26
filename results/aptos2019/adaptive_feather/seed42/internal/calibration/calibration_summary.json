@@ -1,0 +1,29 @@
+{
+  "variant": "adaptive_feather",
+  "seed": 42,
+  "temperature": 1.3000000000000005,
+  "calibration_nll": 0.5906614661216736,
+  "raw_val_calib": {
+    "accuracy": 0.7647058823529411,
+    "macro_F1": 0.6291349412693255,
+    "weighted_F1": 0.765448803683142,
+    "balanced_accuracy": 0.6249884609714331,
+    "QWK": 0.8465462543885622,
+    "top2_accuracy": 0.9144385026737968,
+    "ECE": 0.07997645963640773,
+    "NLL": 0.60958331823349,
+    "Brier": 0.31822749972343445
+  },
+  "temperature_scaled_val_calib": {
+    "accuracy": 0.7647058823529411,
+    "macro_F1": 0.6291349412693255,
+    "weighted_F1": 0.765448803683142,
+    "balanced_accuracy": 0.6249884609714331,
+    "QWK": 0.8465462543885622,
+    "top2_accuracy": 0.9144385026737968,
+    "ECE": 0.04624074410627233,
+    "NLL": 0.5906614661216736,
+    "Brier": 0.3084999620914459
+  },
+  "note": "Temperatura ajustada usando solo val_calib. val_eval/int_test/hold_out no se usan para ajustar T."
+}
