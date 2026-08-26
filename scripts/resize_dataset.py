@@ -116,6 +116,7 @@ def main():
         raise RuntimeError(
             f"No supported images were found in: {source_dir}"
         )
+    
 
     print(f"Images found: {len(files)}")
     print(f"Output sizes: {', '.join(str(size) for size in sizes)}")
