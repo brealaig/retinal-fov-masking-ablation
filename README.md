@@ -73,11 +73,29 @@ retinal-fov-masking-ablation/
 │   ├── Pipeline/
 │   │   ├── rd_on_the_fly_mask_ablation.py
 │   │   └── train_mask_ablation.py
-│   └── data_preprocessing/
-│       ├── README.md
-│       ├── calculate_p50.py
-│       ├── generate_ablation_variants.py
-│       └── resize_dataset.py
+│   ├── data_preprocessing/
+│   │   ├── README.md
+│   │   ├── calculate_p50.py
+│   │   ├── generate_ablation_variants.py
+│   │   └── resize_dataset.py
+│   ├── gradcamtools/
+│   │   ├── analyze_gradcam_alignment.py
+│   │   ├── batch_explain_external_dataset.py
+│   │   ├── batch_explain_mask_ablation.py
+│   │   ├── batch_explain_val.py
+│   │   ├── make_gradcam.py
+│   │   ├── quantify_explanations.py
+│   │   └── triage_report.py
+│   └── tools/
+│       ├── check_double_clahe.py
+│       ├── eval_metrics.py
+│       ├── from_results_to_manifest.py
+│       ├── from_results_to_manifest_overlay.py
+│       ├── generate_manifest.py
+│       ├── make_eval_dir_from_csv.py
+│       ├── make_eval_dir_from_csv_bylabel.py
+│       ├── make_labels_from_csv.py
+│       └── merge_results_with_labels.py
 ├── src/
 │   └── retinal_fov_masking/
 │       ├── __init__.py
