@@ -1056,18 +1056,18 @@ For users who only want to understand the basic workflow, the minimum sequence i
 For full experimental reproduction:
 
 ```text
-APTOS + EyePACS
+APTOS and EyePACS
         ×
 4 masking strategies
         ×
 3 seeds
-        +
+        ×
 internal evaluation
-        +
+        ×
 temperature calibration
-        +
+        ×
 Grad-CAM analysis
-        +
+        ×
 independent Messidor-2 evaluation
 ```
 
