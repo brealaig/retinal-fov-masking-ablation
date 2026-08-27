@@ -19,32 +19,110 @@ Experiments are organized around **APTOS 2019** and **EyePACS** as development d
 
 ```text
 retinal-fov-masking-ablation/
-├── README.md
-├── CITATION.cff
-├── LICENSE
-├── requirements.txt
-├── .gitignore
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   └── reproducibility.yml
+│   └── pull_request_template.md
 ├── configs/
-├── data/
+│   ├── README.md
+│   └── example_experiment.yaml
 ├── docs/
 │   ├── DATASETS.md
 │   ├── EXPERIMENTS.md
 │   └── REPRODUCIBILITY.md
-├── notebooks/
 ├── paper/
+│   ├── README.md
+│   └── result_manifest.csv
 ├── results/
+│   ├── README.md
+│   ├── aptos2019/
+│   │   ├── adaptive_feather/
+│   │   │   ├── seed42/
+│   │   │   ├── seed123/
+│   │   │   └── seed2024/
+│   │   ├── fixed_feather/
+│   │   │   ├── seed42/
+│   │   │   ├── seed123/
+│   │   │   └── seed2024/
+│   │   ├── hard_mask/
+│   │   │   ├── seed42/
+│   │   │   ├── seed123/
+│   │   │   └── seed2024/
+│   │   └── no_mask/
+│   │       ├── seed42/
+│   │       ├── seed123/
+│   │       └── seed2024/
+│   └── eyepacs/
+│       ├── adaptive_feather/
+│       │   ├── seed42/
+│       │   ├── seed123/
+│       │   └── seed2024/
+│       ├── fixed_feather/
+│       │   ├── seed42/
+│       │   ├── seed123/
+│       │   └── seed2024/
+│       ├── hard_mask/
+│       │   ├── seed42/
+│       │   ├── seed123/
+│       │   └── seed2024/
+│       └── no_mask/
+│           ├── seed42/
+│           ├── seed123/
+│           └── seed2024/
 ├── scripts/
+│   ├── Pipeline/
+│   │   ├── rd_on_the_fly_mask_ablation.py
+│   │   └── train_mask_ablation.py
+│   └── data_preprocessing/
+│       ├── README.md
+│       ├── calculate_p50.py
+│       ├── generate_ablation_variants.py
+│       └── resize_dataset.py
 ├── src/
 │   └── retinal_fov_masking/
+│       ├── __init__.py
 │       ├── preprocessing/
+│       │   └── __init__.py
 │       ├── training/
+│       │   └── __init__.py
 │       ├── evaluation/
+│       │   └── __init__.py
 │       ├── interpretability/
+│       │   └── __init__.py
 │       ├── calibration/
+│       │   └── __init__.py
 │       └── utils/
-└── tests/
+│           └── __init__.py
+├── .gitignore
+├── CITATION.cff
+├── CODE_AVAILABILITY.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
 
+Each experiment seed directory under `results/<dataset>/<strategy>/` follows the same organization:
+
+```text
+seed*/
+├── experiment_config.json
+├── internal/
+│   ├── calibration/
+│   │   └── calibration_summary.json
+│   ├── gradcam/
+│   │   ├── overlays/
+│   │   └── summaries/
+│   └── metrics/
+│       └── *.csv
+└── external/
+    └── messidor2/
+        ├── gradcam/
+        │   ├── overlays/
+        │   └── summaries/
+        └── metrics/
+            └── *.csv
+```
 ## Quick start
 
 ### 1. Clone the repository
