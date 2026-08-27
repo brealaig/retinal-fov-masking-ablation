@@ -1,15 +1,19 @@
-# Replace these ranges with the exact versions used for the manuscript release.
-# Example workflow before release:
-#   pip freeze > requirements-lock.txt
-
-numpy
-pandas
+# Core scientific and image-processing dependencies
+numpy==1.23.5
+pandas==2.2.2
 scipy
-scikit-learn
+scikit-learn==1.5.2
 scikit-image
-opencv-python
-matplotlib
-Pillow
-tensorflow
+opencv-python==4.10.0.84
+matplotlib==3.9.2
+Pillow==9.5.0
 tqdm
 PyYAML
+
+# TensorFlow / Keras environment used by the experimental pipeline
+tensorflow==2.10.0
+tensorflow-intel==2.10.0
+tensorflow-cpu==2.10.0
+tensorflow-directml-plugin==0.4.0.dev230202
+keras==2.10.0
+protobuf==3.19.6
