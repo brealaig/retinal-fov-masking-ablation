@@ -11,8 +11,6 @@ The repository is designed to accompany the manuscript comparing four preprocess
 
 Experiments are organized around **APTOS 2019** and **EyePACS** as development datasets, with **Messidor-2** used for independent external evaluation. The repository also provides space for classification, calibration, and Grad-CAM analyses.
 
-> **Repository status:** scaffold prepared for public release. Experimental scripts, exact package versions, trained-model metadata, and final result files should be added before archival/release.
-
 ---
 
 ## Repository structure
@@ -148,7 +146,7 @@ This section describes how the repository components fit together and provides a
 The core workflow is:
 
 ```text
-Raw retinal images + labels
+Raw retinal images and labels
             │
             ▼
 Optional image resizing
@@ -167,7 +165,7 @@ Dataset organization
 no_mask / hard_mask / fixed_feather / adaptive_feather
             │
             ▼
-Training + internal evaluation + calibration
+Training, internal evaluation and calibration
 train_mask_ablation.py
             │
             ├───────────────┐
@@ -193,7 +191,7 @@ git clone https://github.com/brealaig/retinal-fov-masking-ablation.git
 cd retinal-fov-masking-ablation
 ```
 
-All commands in this tutorial assume that they are executed from the repository root unless stated otherwise.
+All commands in this guide assume that they are executed from the repository root unless stated otherwise.
 
 ---
 
