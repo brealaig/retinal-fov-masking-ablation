@@ -7,9 +7,9 @@ The central ablation compares four retinal field-of-view preprocessing strategie
 | ID | Strategy | Repository name |
 |---|---|---|
 | P0 | No masking | `no_mask` |
-| P1 | Hard masking | `hard_mask` |
+| P1 | Binary masking | `hard_mask` |
 | P2 | Fixed feathering | `fixed_feather` |
-| P3 | Adaptive feathering | `adaptive_feather` |
+| P3 | P50-adaptive feathering | `adaptive_feather` |
 
 ## Development datasets
 

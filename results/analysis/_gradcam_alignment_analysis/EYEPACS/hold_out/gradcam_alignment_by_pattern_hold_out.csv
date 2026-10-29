@@ -1,0 +1,246 @@
+dataset,variant,seed,attention_pattern,attention_pattern_label,n,correct_rate,confidence_mean
+EYEPACS,adaptive_feather,22,border_dominant,Dependencia potencial del borde,77,0.5194805194805194,0.5189079201066649
+EYEPACS,adaptive_feather,22,extraretinal_dominant,Atención extrarretinal dominante,721,0.4535367545076283,0.43849083431964114
+EYEPACS,adaptive_feather,22,extraretinal_elevated,Atención extrarretinal elevada,775,0.6206451612903225,0.48494947452698983
+EYEPACS,adaptive_feather,22,mixed_extraretinal_border,Patrón mixto: fondo y borde,370,0.518918918918919,0.47201695852988473
+EYEPACS,adaptive_feather,22,mixed_or_diffuse,Atención mixta o difusa,693,0.5382395382395382,0.5256254311118808
+EYEPACS,adaptive_feather,22,retinal_aligned,Atención predominantemente retinal,2395,0.40793319415448853,0.5629597751108739
+EYEPACS,adaptive_feather,42,border_dominant,Dependencia potencial del borde,78,0.5897435897435898,0.6130936382672726
+EYEPACS,adaptive_feather,42,extraretinal_dominant,Atención extrarretinal dominante,860,0.44651162790697674,0.5196616526259933
+EYEPACS,adaptive_feather,42,extraretinal_elevated,Atención extrarretinal elevada,711,0.6061884669479606,0.5556036592703496
+EYEPACS,adaptive_feather,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,385,0.4987012987012987,0.5983904561439117
+EYEPACS,adaptive_feather,42,mixed_or_diffuse,Atención mixta o difusa,640,0.5890625,0.608669201284647
+EYEPACS,adaptive_feather,42,retinal_aligned,Atención predominantemente retinal,2357,0.4518455663979635,0.6052793631702346
+EYEPACS,adaptive_feather,44,border_dominant,Dependencia potencial del borde,47,0.44680851063829785,0.5715478867926496
+EYEPACS,adaptive_feather,44,extraretinal_dominant,Atención extrarretinal dominante,817,0.4589963280293758,0.46040579237071216
+EYEPACS,adaptive_feather,44,extraretinal_elevated,Atención extrarretinal elevada,868,0.6094470046082949,0.508129089675878
+EYEPACS,adaptive_feather,44,mixed_extraretinal_border,Patrón mixto: fondo y borde,448,0.5267857142857143,0.5130070689400392
+EYEPACS,adaptive_feather,44,mixed_or_diffuse,Atención mixta o difusa,523,0.6003824091778203,0.5745564418814606
+EYEPACS,adaptive_feather,44,retinal_aligned,Atención predominantemente retinal,2328,0.40764604810996563,0.5857238434447148
+EYEPACS,adaptive_feather,73,border_dominant,Dependencia potencial del borde,124,0.49193548387096775,0.5583037868622811
+EYEPACS,adaptive_feather,73,extraretinal_dominant,Atención extrarretinal dominante,415,0.42168674698795183,0.4552385487111218
+EYEPACS,adaptive_feather,73,extraretinal_elevated,Atención extrarretinal elevada,509,0.5795677799607073,0.5138310741757597
+EYEPACS,adaptive_feather,73,mixed_extraretinal_border,Patrón mixto: fondo y borde,319,0.5360501567398119,0.5401481107858281
+EYEPACS,adaptive_feather,73,mixed_or_diffuse,Atención mixta o difusa,830,0.5686746987951807,0.567775148584182
+EYEPACS,adaptive_feather,73,retinal_aligned,Atención predominantemente retinal,2834,0.47776993648553284,0.5910837179971313
+EYEPACS,adaptive_feather,123,border_dominant,Dependencia potencial del borde,180,0.4777777777777778,0.5210994112822744
+EYEPACS,adaptive_feather,123,extraretinal_dominant,Atención extrarretinal dominante,347,0.4755043227665706,0.47009138835953707
+EYEPACS,adaptive_feather,123,extraretinal_elevated,Atención extrarretinal elevada,290,0.5344827586206896,0.5115352276070365
+EYEPACS,adaptive_feather,123,mixed_extraretinal_border,Patrón mixto: fondo y borde,324,0.4506172839506173,0.5389232876492135
+EYEPACS,adaptive_feather,123,mixed_or_diffuse,Atención mixta o difusa,968,0.5650826446280992,0.5560096153173565
+EYEPACS,adaptive_feather,123,retinal_aligned,Atención predominantemente retinal,2922,0.48425735797399044,0.580152154111601
+EYEPACS,adaptive_feather,1012,border_dominant,Dependencia potencial del borde,92,0.6086956521739131,0.5574842892263246
+EYEPACS,adaptive_feather,1012,extraretinal_dominant,Atención extrarretinal dominante,771,0.44357976653696496,0.4898590345597607
+EYEPACS,adaptive_feather,1012,extraretinal_elevated,Atención extrarretinal elevada,478,0.6129707112970711,0.5869870046192632
+EYEPACS,adaptive_feather,1012,mixed_extraretinal_border,Patrón mixto: fondo y borde,329,0.5562310030395137,0.5430394255281582
+EYEPACS,adaptive_feather,1012,mixed_or_diffuse,Atención mixta o difusa,727,0.6396148555708391,0.6063918781657658
+EYEPACS,adaptive_feather,1012,retinal_aligned,Atención predominantemente retinal,2634,0.42065299924069854,0.5772315947934363
+EYEPACS,adaptive_feather,1729,border_dominant,Dependencia potencial del borde,196,0.5102040816326531,0.5089668064397208
+EYEPACS,adaptive_feather,1729,extraretinal_dominant,Atención extrarretinal dominante,427,0.5690866510538641,0.5065063205340428
+EYEPACS,adaptive_feather,1729,extraretinal_elevated,Atención extrarretinal elevada,1124,0.6040925266903915,0.5595543839541194
+EYEPACS,adaptive_feather,1729,mixed_extraretinal_border,Patrón mixto: fondo y borde,376,0.550531914893617,0.5485241414701685
+EYEPACS,adaptive_feather,1729,mixed_or_diffuse,Atención mixta o difusa,785,0.5847133757961783,0.6116248836942539
+EYEPACS,adaptive_feather,1729,retinal_aligned,Atención predominantemente retinal,2123,0.40508714083843617,0.5893608360457858
+EYEPACS,adaptive_feather,2024,border_dominant,Dependencia potencial del borde,94,0.5,0.4496044123426397
+EYEPACS,adaptive_feather,2024,extraretinal_dominant,Atención extrarretinal dominante,285,0.4421052631578947,0.45159511581847545
+EYEPACS,adaptive_feather,2024,extraretinal_elevated,Atención extrarretinal elevada,476,0.5021008403361344,0.4727600176169091
+EYEPACS,adaptive_feather,2024,mixed_extraretinal_border,Patrón mixto: fondo y borde,220,0.45,0.4771025825630535
+EYEPACS,adaptive_feather,2024,mixed_or_diffuse,Atención mixta o difusa,1346,0.5349182763744428,0.5008049151828349
+EYEPACS,adaptive_feather,2024,retinal_aligned,Atención predominantemente retinal,2610,0.4632183908045977,0.53702327134052
+EYEPACS,adaptive_feather,4060,border_dominant,Dependencia potencial del borde,59,0.5084745762711864,0.5910501656895977
+EYEPACS,adaptive_feather,4060,extraretinal_dominant,Atención extrarretinal dominante,1331,0.5364387678437266,0.4934247493699115
+EYEPACS,adaptive_feather,4060,extraretinal_elevated,Atención extrarretinal elevada,751,0.6151797603195739,0.5389196847710565
+EYEPACS,adaptive_feather,4060,mixed_extraretinal_border,Patrón mixto: fondo y borde,400,0.5975,0.5635737608373165
+EYEPACS,adaptive_feather,4060,mixed_or_diffuse,Atención mixta o difusa,401,0.5660847880299252,0.6176971064095486
+EYEPACS,adaptive_feather,4060,retinal_aligned,Atención predominantemente retinal,2089,0.4006701771182384,0.5949252408877008
+EYEPACS,adaptive_feather,5432,border_dominant,Dependencia potencial del borde,168,0.4523809523809524,0.5614136594037215
+EYEPACS,adaptive_feather,5432,extraretinal_dominant,Atención extrarretinal dominante,565,0.5663716814159292,0.5043225074236372
+EYEPACS,adaptive_feather,5432,extraretinal_elevated,Atención extrarretinal elevada,747,0.6010709504685409,0.5383035137232048
+EYEPACS,adaptive_feather,5432,mixed_extraretinal_border,Patrón mixto: fondo y borde,478,0.5251046025104602,0.5540332883970508
+EYEPACS,adaptive_feather,5432,mixed_or_diffuse,Atención mixta o difusa,905,0.5723756906077349,0.5788488909025877
+EYEPACS,adaptive_feather,5432,retinal_aligned,Atención predominantemente retinal,2168,0.4132841328413284,0.5883434360840004
+EYEPACS,fixed_feather,22,border_dominant,Dependencia potencial del borde,206,0.45145631067961167,0.532689272923377
+EYEPACS,fixed_feather,22,extraretinal_dominant,Atención extrarretinal dominante,404,0.46534653465346537,0.5055895767884679
+EYEPACS,fixed_feather,22,extraretinal_elevated,Atención extrarretinal elevada,338,0.45857988165680474,0.5413141325997883
+EYEPACS,fixed_feather,22,mixed_extraretinal_border,Patrón mixto: fondo y borde,406,0.4408866995073892,0.5441390231178311
+EYEPACS,fixed_feather,22,mixed_or_diffuse,Atención mixta o difusa,805,0.462111801242236,0.5781758163286292
+EYEPACS,fixed_feather,22,retinal_aligned,Atención predominantemente retinal,2872,0.5264623955431755,0.5836529264428905
+EYEPACS,fixed_feather,42,border_dominant,Dependencia potencial del borde,458,0.2052401746724891,0.44944366851748335
+EYEPACS,fixed_feather,42,extraretinal_dominant,Atención extrarretinal dominante,278,0.21942446043165467,0.4286790947905547
+EYEPACS,fixed_feather,42,extraretinal_elevated,Atención extrarretinal elevada,462,0.26406926406926406,0.4601922235512114
+EYEPACS,fixed_feather,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,410,0.24634146341463414,0.4179761999263996
+EYEPACS,fixed_feather,42,mixed_or_diffuse,Atención mixta o difusa,876,0.3321917808219178,0.49353641921390684
+EYEPACS,fixed_feather,42,retinal_aligned,Atención predominantemente retinal,2547,0.3003533568904594,0.5034292174417644
+EYEPACS,fixed_feather,44,border_dominant,Dependencia potencial del borde,154,0.42207792207792205,0.5263088233285136
+EYEPACS,fixed_feather,44,extraretinal_dominant,Atención extrarretinal dominante,373,0.42091152815013405,0.4583951900376072
+EYEPACS,fixed_feather,44,extraretinal_elevated,Atención extrarretinal elevada,350,0.46285714285714286,0.5085101657680102
+EYEPACS,fixed_feather,44,mixed_extraretinal_border,Patrón mixto: fondo y borde,278,0.46402877697841727,0.4851839975487414
+EYEPACS,fixed_feather,44,mixed_or_diffuse,Atención mixta o difusa,801,0.45318352059925093,0.5265414188528775
+EYEPACS,fixed_feather,44,retinal_aligned,Atención predominantemente retinal,3075,0.504390243902439,0.5639380645170444
+EYEPACS,fixed_feather,73,border_dominant,Dependencia potencial del borde,123,0.43902439024390244,0.5319702608313986
+EYEPACS,fixed_feather,73,extraretinal_dominant,Atención extrarretinal dominante,612,0.43790849673202614,0.46839218406505834
+EYEPACS,fixed_feather,73,extraretinal_elevated,Atención extrarretinal elevada,261,0.5747126436781609,0.5692472265483776
+EYEPACS,fixed_feather,73,mixed_extraretinal_border,Patrón mixto: fondo y borde,345,0.5072463768115942,0.530180936879006
+EYEPACS,fixed_feather,73,mixed_or_diffuse,Atención mixta o difusa,622,0.5996784565916399,0.575783021580368
+EYEPACS,fixed_feather,73,retinal_aligned,Atención predominantemente retinal,3068,0.44328552803129073,0.5345500958051334
+EYEPACS,fixed_feather,123,border_dominant,Dependencia potencial del borde,76,0.39473684210526316,0.5345630573206827
+EYEPACS,fixed_feather,123,extraretinal_dominant,Atención extrarretinal dominante,537,0.43947858472998136,0.45908561149122995
+EYEPACS,fixed_feather,123,extraretinal_elevated,Atención extrarretinal elevada,288,0.6215277777777778,0.5426822254537709
+EYEPACS,fixed_feather,123,mixed_extraretinal_border,Patrón mixto: fondo y borde,287,0.4878048780487805,0.5218866303407357
+EYEPACS,fixed_feather,123,mixed_or_diffuse,Atención mixta o difusa,873,0.56815578465063,0.5508936722800221
+EYEPACS,fixed_feather,123,retinal_aligned,Atención predominantemente retinal,2970,0.4494949494949495,0.5529848502240197
+EYEPACS,fixed_feather,1012,border_dominant,Dependencia potencial del borde,134,0.47761194029850745,0.5201832645419818
+EYEPACS,fixed_feather,1012,extraretinal_dominant,Atención extrarretinal dominante,524,0.47900763358778625,0.4718844979603327
+EYEPACS,fixed_feather,1012,extraretinal_elevated,Atención extrarretinal elevada,421,0.5795724465558195,0.551908632709408
+EYEPACS,fixed_feather,1012,mixed_extraretinal_border,Patrón mixto: fondo y borde,330,0.4909090909090909,0.5449313950358015
+EYEPACS,fixed_feather,1012,mixed_or_diffuse,Atención mixta o difusa,715,0.5664335664335665,0.5950997618528513
+EYEPACS,fixed_feather,1012,retinal_aligned,Atención predominantemente retinal,2907,0.45338837289301687,0.5542451360912966
+EYEPACS,fixed_feather,1729,border_dominant,Dependencia potencial del borde,262,0.4580152671755725,0.5216567231953599
+EYEPACS,fixed_feather,1729,extraretinal_dominant,Atención extrarretinal dominante,737,0.5563093622795116,0.5833882351419819
+EYEPACS,fixed_feather,1729,extraretinal_elevated,Atención extrarretinal elevada,720,0.6069444444444444,0.5899163533829981
+EYEPACS,fixed_feather,1729,mixed_extraretinal_border,Patrón mixto: fondo y borde,402,0.572139303482587,0.6075982028127309
+EYEPACS,fixed_feather,1729,mixed_or_diffuse,Atención mixta o difusa,624,0.5496794871794872,0.5932166558475449
+EYEPACS,fixed_feather,1729,retinal_aligned,Atención predominantemente retinal,2286,0.43832020997375326,0.595215767504662
+EYEPACS,fixed_feather,2024,border_dominant,Dependencia potencial del borde,132,0.44696969696969696,0.4816128999897928
+EYEPACS,fixed_feather,2024,extraretinal_dominant,Atención extrarretinal dominante,453,0.46357615894039733,0.45090297032271
+EYEPACS,fixed_feather,2024,extraretinal_elevated,Atención extrarretinal elevada,443,0.5575620767494357,0.5313363719739979
+EYEPACS,fixed_feather,2024,mixed_extraretinal_border,Patrón mixto: fondo y borde,333,0.4744744744744745,0.4882260077708476
+EYEPACS,fixed_feather,2024,mixed_or_diffuse,Atención mixta o difusa,825,0.5503030303030303,0.5657190310593807
+EYEPACS,fixed_feather,2024,retinal_aligned,Atención predominantemente retinal,2845,0.4836555360281195,0.5584324900944748
+EYEPACS,fixed_feather,4060,border_dominant,Dependencia potencial del borde,89,0.449438202247191,0.5671961997332198
+EYEPACS,fixed_feather,4060,extraretinal_dominant,Atención extrarretinal dominante,1407,0.5828002842928216,0.5074696991997741
+EYEPACS,fixed_feather,4060,extraretinal_elevated,Atención extrarretinal elevada,586,0.5989761092150171,0.5496008017262501
+EYEPACS,fixed_feather,4060,mixed_extraretinal_border,Patrón mixto: fondo y borde,585,0.5623931623931624,0.5549202561123758
+EYEPACS,fixed_feather,4060,mixed_or_diffuse,Atención mixta o difusa,414,0.5628019323671497,0.6038732610031027
+EYEPACS,fixed_feather,4060,retinal_aligned,Atención predominantemente retinal,1950,0.36153846153846153,0.5799804289753621
+EYEPACS,fixed_feather,5432,border_dominant,Dependencia potencial del borde,175,0.4685714285714286,0.5048195830413273
+EYEPACS,fixed_feather,5432,extraretinal_dominant,Atención extrarretinal dominante,436,0.5275229357798165,0.502033782558977
+EYEPACS,fixed_feather,5432,extraretinal_elevated,Atención extrarretinal elevada,710,0.5957746478873239,0.5541877408682461
+EYEPACS,fixed_feather,5432,mixed_extraretinal_border,Patrón mixto: fondo y borde,497,0.5714285714285714,0.5356979207313757
+EYEPACS,fixed_feather,5432,mixed_or_diffuse,Atención mixta o difusa,790,0.5683544303797469,0.5769746471432191
+EYEPACS,fixed_feather,5432,retinal_aligned,Atención predominantemente retinal,2423,0.43417251341312424,0.5519785800786536
+EYEPACS,hard_mask,22,border_dominant,Dependencia potencial del borde,144,0.6458333333333334,0.6182949302925004
+EYEPACS,hard_mask,22,extraretinal_dominant,Atención extrarretinal dominante,668,0.4595808383233533,0.5592147985439815
+EYEPACS,hard_mask,22,extraretinal_elevated,Atención extrarretinal elevada,338,0.5177514792899408,0.6496577375739284
+EYEPACS,hard_mask,22,mixed_extraretinal_border,Patrón mixto: fondo y borde,294,0.5850340136054422,0.6553245089492019
+EYEPACS,hard_mask,22,mixed_or_diffuse,Atención mixta o difusa,622,0.5498392282958199,0.6497700073519703
+EYEPACS,hard_mask,22,retinal_aligned,Atención predominantemente retinal,2965,0.4846543001686341,0.6289425035753299
+EYEPACS,hard_mask,42,border_dominant,Dependencia potencial del borde,430,0.6372093023255814,0.5732883903869362
+EYEPACS,hard_mask,42,extraretinal_dominant,Atención extrarretinal dominante,628,0.5015923566878981,0.5715600742608499
+EYEPACS,hard_mask,42,extraretinal_elevated,Atención extrarretinal elevada,195,0.5641025641025641,0.674247440466514
+EYEPACS,hard_mask,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,903,0.6179401993355482,0.5816432603965962
+EYEPACS,hard_mask,42,mixed_or_diffuse,Atención mixta o difusa,841,0.6218787158145065,0.6215899158247019
+EYEPACS,hard_mask,42,retinal_aligned,Atención predominantemente retinal,2034,0.39233038348082594,0.5794326811955625
+EYEPACS,hard_mask,44,border_dominant,Dependencia potencial del borde,138,0.5507246376811594,0.5712207722059195
+EYEPACS,hard_mask,44,extraretinal_dominant,Atención extrarretinal dominante,529,0.4612476370510397,0.5279681529349776
+EYEPACS,hard_mask,44,extraretinal_elevated,Atención extrarretinal elevada,358,0.5391061452513967,0.6349985671942461
+EYEPACS,hard_mask,44,mixed_extraretinal_border,Patrón mixto: fondo y borde,419,0.60381861575179,0.5862097065175632
+EYEPACS,hard_mask,44,mixed_or_diffuse,Atención mixta o difusa,978,0.5899795501022495,0.6021335123141119
+EYEPACS,hard_mask,44,retinal_aligned,Atención predominantemente retinal,2609,0.4323495592180912,0.5915429195644025
+EYEPACS,hard_mask,73,border_dominant,Dependencia potencial del borde,232,0.5991379310344828,0.5609239402773052
+EYEPACS,hard_mask,73,extraretinal_dominant,Atención extrarretinal dominante,638,0.5015673981191222,0.5252108700970497
+EYEPACS,hard_mask,73,extraretinal_elevated,Atención extrarretinal elevada,315,0.638095238095238,0.6565046460855575
+EYEPACS,hard_mask,73,mixed_extraretinal_border,Patrón mixto: fondo y borde,775,0.6154838709677419,0.5401329221648554
+EYEPACS,hard_mask,73,mixed_or_diffuse,Atención mixta o difusa,664,0.6009036144578314,0.6184797760054289
+EYEPACS,hard_mask,73,retinal_aligned,Atención predominantemente retinal,2407,0.38512671375155794,0.5743699788948189
+EYEPACS,hard_mask,123,border_dominant,Dependencia potencial del borde,187,0.5935828877005348,0.5475946110200117
+EYEPACS,hard_mask,123,extraretinal_dominant,Atención extrarretinal dominante,759,0.5046113306982872,0.5146269267412671
+EYEPACS,hard_mask,123,extraretinal_elevated,Atención extrarretinal elevada,394,0.5558375634517766,0.575940536401296
+EYEPACS,hard_mask,123,mixed_extraretinal_border,Patrón mixto: fondo y borde,747,0.642570281124498,0.5420066130608121
+EYEPACS,hard_mask,123,mixed_or_diffuse,Atención mixta o difusa,764,0.5942408376963351,0.6064199052009908
+EYEPACS,hard_mask,123,retinal_aligned,Atención predominantemente retinal,2180,0.37293577981651377,0.582069835251351
+EYEPACS,hard_mask,1012,border_dominant,Dependencia potencial del borde,183,0.6010928961748634,0.5559063174359785
+EYEPACS,hard_mask,1012,extraretinal_dominant,Atención extrarretinal dominante,720,0.5652777777777778,0.5231661378509469
+EYEPACS,hard_mask,1012,extraretinal_elevated,Atención extrarretinal elevada,271,0.5977859778597786,0.6002222121421701
+EYEPACS,hard_mask,1012,mixed_extraretinal_border,Patrón mixto: fondo y borde,1011,0.6122650840751731,0.5596139299822372
+EYEPACS,hard_mask,1012,mixed_or_diffuse,Atención mixta o difusa,781,0.5364916773367477,0.6177211914035026
+EYEPACS,hard_mask,1012,retinal_aligned,Atención predominantemente retinal,2065,0.36900726392251815,0.596829365947922
+EYEPACS,hard_mask,1729,border_dominant,Dependencia potencial del borde,130,0.5076923076923077,0.540217408996362
+EYEPACS,hard_mask,1729,extraretinal_dominant,Atención extrarretinal dominante,807,0.5464684014869888,0.5089992682508376
+EYEPACS,hard_mask,1729,extraretinal_elevated,Atención extrarretinal elevada,508,0.5787401574803149,0.5935254351008595
+EYEPACS,hard_mask,1729,mixed_extraretinal_border,Patrón mixto: fondo y borde,618,0.6213592233009708,0.5473820073319099
+EYEPACS,hard_mask,1729,mixed_or_diffuse,Atención mixta o difusa,822,0.5888077858880778,0.6362046492070758
+EYEPACS,hard_mask,1729,retinal_aligned,Atención predominantemente retinal,2146,0.3718546132339236,0.557691910171331
+EYEPACS,hard_mask,2024,border_dominant,Dependencia potencial del borde,98,0.5714285714285714,0.5040630114321806
+EYEPACS,hard_mask,2024,extraretinal_dominant,Atención extrarretinal dominante,592,0.5118243243243243,0.4989720357430948
+EYEPACS,hard_mask,2024,extraretinal_elevated,Atención extrarretinal elevada,447,0.5838926174496645,0.5769723902479381
+EYEPACS,hard_mask,2024,mixed_extraretinal_border,Patrón mixto: fondo y borde,617,0.6223662884927067,0.55606515645208
+EYEPACS,hard_mask,2024,mixed_or_diffuse,Atención mixta o difusa,852,0.5985915492957746,0.5890952549839803
+EYEPACS,hard_mask,2024,retinal_aligned,Atención predominantemente retinal,2425,0.3971134020618557,0.5453702772769732
+EYEPACS,hard_mask,4060,border_dominant,Dependencia potencial del borde,161,0.4906832298136646,0.597900252534736
+EYEPACS,hard_mask,4060,extraretinal_dominant,Atención extrarretinal dominante,1535,0.6228013029315961,0.5531948744959474
+EYEPACS,hard_mask,4060,extraretinal_elevated,Atención extrarretinal elevada,348,0.5603448275862069,0.6357207271730763
+EYEPACS,hard_mask,4060,mixed_extraretinal_border,Patrón mixto: fondo y borde,750,0.6013333333333334,0.613383165637652
+EYEPACS,hard_mask,4060,mixed_or_diffuse,Atención mixta o difusa,470,0.551063829787234,0.6579219788312912
+EYEPACS,hard_mask,4060,retinal_aligned,Atención predominantemente retinal,1767,0.3633276740237691,0.5653229156792602
+EYEPACS,hard_mask,5432,border_dominant,Dependencia potencial del borde,180,0.6,0.6288843656579653
+EYEPACS,hard_mask,5432,extraretinal_dominant,Atención extrarretinal dominante,624,0.5625,0.551651953265835
+EYEPACS,hard_mask,5432,extraretinal_elevated,Atención extrarretinal elevada,362,0.6077348066298343,0.6391730013802566
+EYEPACS,hard_mask,5432,mixed_extraretinal_border,Patrón mixto: fondo y borde,939,0.6027689030883919,0.6027807076327717
+EYEPACS,hard_mask,5432,mixed_or_diffuse,Atención mixta o difusa,706,0.5793201133144475,0.6646727995561811
+EYEPACS,hard_mask,5432,retinal_aligned,Atención predominantemente retinal,2220,0.3810810810810811,0.6162365283515002
+EYEPACS,no_mask,22,border_dominant,Dependencia potencial del borde,248,0.6814516129032258,0.5127060602028524
+EYEPACS,no_mask,22,extraretinal_dominant,Atención extrarretinal dominante,534,0.5074906367041199,0.45946721735406904
+EYEPACS,no_mask,22,extraretinal_elevated,Atención extrarretinal elevada,289,0.5259515570934256,0.5530160595904584
+EYEPACS,no_mask,22,mixed_extraretinal_border,Patrón mixto: fondo y borde,402,0.5771144278606966,0.49224841031269057
+EYEPACS,no_mask,22,mixed_or_diffuse,Atención mixta o difusa,704,0.5866477272727273,0.5411351766987619
+EYEPACS,no_mask,22,peripheral_dominant,Atención periférica elevada,1,0.0,0.276920884847641
+EYEPACS,no_mask,22,retinal_aligned,Atención predominantemente retinal,2853,0.40764107956536977,0.5273490468901247
+EYEPACS,no_mask,42,border_dominant,Dependencia potencial del borde,352,0.6193181818181818,0.5945745612579313
+EYEPACS,no_mask,42,extraretinal_dominant,Atención extrarretinal dominante,639,0.4757433489827856,0.5499626223423485
+EYEPACS,no_mask,42,extraretinal_elevated,Atención extrarretinal elevada,318,0.5534591194968553,0.616009384112538
+EYEPACS,no_mask,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,777,0.6344916344916345,0.5986098105152602
+EYEPACS,no_mask,42,mixed_or_diffuse,Atención mixta o difusa,907,0.5931642778390298,0.651027766648832
+EYEPACS,no_mask,42,peripheral_dominant,Atención periférica elevada,1,1.0,0.7150512933731079
+EYEPACS,no_mask,42,retinal_aligned,Atención predominantemente retinal,2037,0.43102601865488466,0.6238911383852517
+EYEPACS,no_mask,44,border_dominant,Dependencia potencial del borde,284,0.6197183098591549,0.5935789348793702
+EYEPACS,no_mask,44,extraretinal_dominant,Atención extrarretinal dominante,489,0.5378323108384458,0.5723480297622018
+EYEPACS,no_mask,44,extraretinal_elevated,Atención extrarretinal elevada,233,0.48497854077253216,0.6621248874285702
+EYEPACS,no_mask,44,mixed_extraretinal_border,Patrón mixto: fondo y borde,369,0.5799457994579946,0.5956978470813937
+EYEPACS,no_mask,44,mixed_or_diffuse,Atención mixta o difusa,646,0.5479876160990712,0.637506894190614
+EYEPACS,no_mask,44,retinal_aligned,Atención predominantemente retinal,3010,0.4521594684385382,0.6307448578435321
+EYEPACS,no_mask,73,border_dominant,Dependencia potencial del borde,305,0.5770491803278689,0.5144939482700629
+EYEPACS,no_mask,73,extraretinal_dominant,Atención extrarretinal dominante,803,0.5853051058530511,0.5211286095167008
+EYEPACS,no_mask,73,extraretinal_elevated,Atención extrarretinal elevada,366,0.5300546448087432,0.5813492776754775
+EYEPACS,no_mask,73,mixed_extraretinal_border,Patrón mixto: fondo y borde,550,0.6309090909090909,0.542945580536669
+EYEPACS,no_mask,73,mixed_or_diffuse,Atención mixta o difusa,525,0.5885714285714285,0.5928010505154019
+EYEPACS,no_mask,73,retinal_aligned,Atención predominantemente retinal,2482,0.38033843674456086,0.5423404651601693
+EYEPACS,no_mask,123,border_dominant,Dependencia potencial del borde,279,0.6129032258064516,0.522839266766784
+EYEPACS,no_mask,123,extraretinal_dominant,Atención extrarretinal dominante,483,0.3333333333333333,0.4761896583542814
+EYEPACS,no_mask,123,extraretinal_elevated,Atención extrarretinal elevada,323,0.4024767801857585,0.5322173378046822
+EYEPACS,no_mask,123,mixed_extraretinal_border,Patrón mixto: fondo y borde,230,0.5,0.5404828561388928
+EYEPACS,no_mask,123,mixed_or_diffuse,Atención mixta o difusa,834,0.5311750599520384,0.5599494297191393
+EYEPACS,no_mask,123,retinal_aligned,Atención predominantemente retinal,2882,0.4621790423317141,0.5671610800261137
+EYEPACS,no_mask,1012,border_dominant,Dependencia potencial del borde,424,0.6509433962264151,0.51771155512839
+EYEPACS,no_mask,1012,extraretinal_dominant,Atención extrarretinal dominante,470,0.48936170212765956,0.5004580829371797
+EYEPACS,no_mask,1012,extraretinal_elevated,Atención extrarretinal elevada,307,0.4723127035830619,0.5795452126365531
+EYEPACS,no_mask,1012,mixed_extraretinal_border,Patrón mixto: fondo y borde,312,0.5384615384615384,0.5370185827979674
+EYEPACS,no_mask,1012,mixed_or_diffuse,Atención mixta o difusa,621,0.5974235104669887,0.5839689661435267
+EYEPACS,no_mask,1012,retinal_aligned,Atención predominantemente retinal,2897,0.4225060407317915,0.5426042342869051
+EYEPACS,no_mask,1729,border_dominant,Dependencia potencial del borde,176,0.6193181818181818,0.6221795159984719
+EYEPACS,no_mask,1729,extraretinal_dominant,Atención extrarretinal dominante,756,0.593915343915344,0.5759400158489822
+EYEPACS,no_mask,1729,extraretinal_elevated,Atención extrarretinal elevada,318,0.5566037735849056,0.6457045199173801
+EYEPACS,no_mask,1729,mixed_extraretinal_border,Patrón mixto: fondo y borde,756,0.5873015873015873,0.609193573277148
+EYEPACS,no_mask,1729,mixed_or_diffuse,Atención mixta o difusa,589,0.5500848896434635,0.651931199082292
+EYEPACS,no_mask,1729,peripheral_dominant,Atención periférica elevada,1,1.0,0.7874264121055603
+EYEPACS,no_mask,1729,retinal_aligned,Atención predominantemente retinal,2435,0.43039014373716633,0.6167276205957792
+EYEPACS,no_mask,2024,border_dominant,Dependencia potencial del borde,93,0.5268817204301075,0.6011857121221481
+EYEPACS,no_mask,2024,extraretinal_dominant,Atención extrarretinal dominante,990,0.5505050505050505,0.5561294749529675
+EYEPACS,no_mask,2024,extraretinal_elevated,Atención extrarretinal elevada,465,0.5827956989247312,0.6348841199951787
+EYEPACS,no_mask,2024,mixed_extraretinal_border,Patrón mixto: fondo y borde,432,0.6111111111111112,0.6162447593416329
+EYEPACS,no_mask,2024,mixed_or_diffuse,Atención mixta o difusa,550,0.5872727272727273,0.6596477104858919
+EYEPACS,no_mask,2024,retinal_aligned,Atención predominantemente retinal,2501,0.39464214314274293,0.624071354176797
+EYEPACS,no_mask,4060,border_dominant,Dependencia potencial del borde,176,0.5511363636363636,0.6608245660635558
+EYEPACS,no_mask,4060,extraretinal_dominant,Atención extrarretinal dominante,948,0.5791139240506329,0.5702764915954714
+EYEPACS,no_mask,4060,extraretinal_elevated,Atención extrarretinal elevada,384,0.5494791666666666,0.6160418180127939
+EYEPACS,no_mask,4060,mixed_extraretinal_border,Patrón mixto: fondo y borde,789,0.6020278833967047,0.6361610401794786
+EYEPACS,no_mask,4060,mixed_or_diffuse,Atención mixta o difusa,577,0.5736568457538995,0.6669697479007562
+EYEPACS,no_mask,4060,peripheral_dominant,Atención periférica elevada,1,1.0,0.7826110124588013
+EYEPACS,no_mask,4060,retinal_aligned,Atención predominantemente retinal,2156,0.38358070500927643,0.6381515774993375
+EYEPACS,no_mask,5432,border_dominant,Dependencia potencial del borde,298,0.6476510067114094,0.5137018921391275
+EYEPACS,no_mask,5432,extraretinal_dominant,Atención extrarretinal dominante,376,0.44680851063829785,0.4934229282860426
+EYEPACS,no_mask,5432,extraretinal_elevated,Atención extrarretinal elevada,294,0.5204081632653061,0.5708702793534921
+EYEPACS,no_mask,5432,mixed_extraretinal_border,Patrón mixto: fondo y borde,306,0.6372549019607843,0.5563245705919329
+EYEPACS,no_mask,5432,mixed_or_diffuse,Atención mixta o difusa,714,0.5546218487394958,0.5611710360988516
+EYEPACS,no_mask,5432,peripheral_dominant,Atención periférica elevada,1,0.0,0.4902209043502807
+EYEPACS,no_mask,5432,retinal_aligned,Atención predominantemente retinal,3042,0.4197896120973044,0.5531683388771703

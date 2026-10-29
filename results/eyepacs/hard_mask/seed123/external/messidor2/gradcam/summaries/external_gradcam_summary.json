@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:07:58",
+  "generated_at": "2026-10-24T16:10:43",
   "source_dataset": "EYEPACS",
   "external_dataset": "MESSIDOR2",
   "variant": "hard_mask",
@@ -9,7 +9,7 @@
   "layer_name": "top_conv",
   "device": {
     "operation": "gradcam_external",
-    "requested_mode": "auto",
+    "requested_mode": "gpu",
     "requested_gpu_index": 0,
     "selected_device": "GPU",
     "selected_tensorflow_device": "/GPU:0",
@@ -19,7 +19,7 @@
     "physical_cpu_count": 1,
     "cuda_visible_devices": "0",
     "tensorflow_version": "2.10.0",
-    "gpu_prioritized": true
+    "gpu_prioritized": false
   },
   "path_resolution": {
     "dataset_root": "C:\\Users\\USER\\Desktop\\Articulo\\Datasets\\MESSIDOR2",

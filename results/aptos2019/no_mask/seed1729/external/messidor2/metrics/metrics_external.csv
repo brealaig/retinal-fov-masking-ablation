@@ -1,0 +1,2 @@
+source_dataset,external_dataset,variant,seed,split,n,temperature,temperature_source,compute_device,compute_device_name,accuracy,macro_F1,weighted_F1,balanced_accuracy,QWK,top2_accuracy,ECE,NLL,Brier
+APTOS,MESSIDOR2,no_mask,1729,external_test,1744,1.4500000000000006,source_val_calib,GPU,NVIDIA GeForce RTX 4060,0.5951834862385321,0.2572834062166528,0.45746770599997094,0.2708645427890538,0.2058534496022184,0.731651376146789,0.3048739143296939,1.6950658559799194,0.6911287903785706

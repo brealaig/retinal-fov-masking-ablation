@@ -1,0 +1,10 @@
+{
+  "outside_high": 0.5,
+  "outside_dominant": 0.7,
+  "border_high": 0.4358321986600288,
+  "peripheral_high": 0.4,
+  "central_retinal_median": 0.4441665147725659,
+  "pooled_n": 29160,
+  "method": "pooled_hybrid_absolute_plus_quantile",
+  "generated_at": "2026-10-24T20:35:06"
+}

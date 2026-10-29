@@ -24,9 +24,9 @@ Briefly describe the changes introduced by this pull request.
 ## Preprocessing strategy
 
 - [ ] No masking
-- [ ] Hard masking
+- [ ] Binary masking
 - [ ] Fixed feathering
-- [ ] Adaptive feathering
+- [ ] P50-adaptive feathering
 - [ ] Not applicable
 
 ## Reproducibility

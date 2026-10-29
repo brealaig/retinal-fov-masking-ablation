@@ -1,0 +1,14 @@
+{
+  "operation": "training",
+  "requested_mode": "auto",
+  "requested_gpu_index": 1,
+  "selected_device": "CPU",
+  "selected_tensorflow_device": "/CPU:0",
+  "selected_device_name": "CPU",
+  "actual_probe_device": "/job:localhost/replica:0/task:0/device:CPU:0",
+  "physical_gpu_count": 0,
+  "physical_cpu_count": 1,
+  "cuda_visible_devices": "1",
+  "tensorflow_version": "2.10.0",
+  "gpu_prioritized": true
+}

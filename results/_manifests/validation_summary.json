@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-10-29T02:11:40.663989+00:00",
+  "source_root": "C:\\Users\\USER\\Desktop\\Articulo\\Pipeline\\OnTheFly",
+  "experiments_root": "C:\\Users\\USER\\Desktop\\Articulo\\Pipeline\\OnTheFly\\experiments",
+  "expected_seeds_per_dataset_strategy": 10,
+  "experiment_count": 80,
+  "matrix": {
+    "APTOS": {
+      "adaptive_feather": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "fixed_feather": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "hard_mask": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "no_mask": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ]
+    },
+    "EYEPACS": {
+      "adaptive_feather": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "fixed_feather": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "hard_mask": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ],
+      "no_mask": [
+        "22",
+        "42",
+        "44",
+        "73",
+        "123",
+        "1012",
+        "1729",
+        "2024",
+        "4060",
+        "5432"
+      ]
+    }
+  },
+  "validation_errors": [],
+  "overlay_counts": {
+    "internal_manuscript": 80,
+    "external_manuscript": 80,
+    "sample": 0
+  },
+  "storage_policy": {
+    "bulk_gradcam_overlays": false,
+    "manuscript_overlays": true,
+    "overlay_sample_per_bucket": 0,
+    "all_internal_predictions": false,
+    "checkpoints": false,
+    "raw_datasets": false,
+    "logs": false
+  },
+  "staged_results_size_bytes": 202867396,
+  "staged_results_size_mb": 193.47
+}
