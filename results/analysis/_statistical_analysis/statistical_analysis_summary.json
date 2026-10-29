@@ -1,0 +1,85 @@
+{
+  "analysis_version": 1,
+  "generated_at": "2026-10-24T20:22:03",
+  "exp_root": "C:\\Users\\USER\\Desktop\\Articulo\\Pipeline\\OnTheFly\\experiments",
+  "output_dir": "C:\\Users\\USER\\Desktop\\Articulo\\Pipeline\\OnTheFly\\experiments\\_statistical_analysis",
+  "available": true,
+  "n_experiments": 80,
+  "n_rows": 320,
+  "n_epoch_rows": 3809,
+  "datasets": [
+    "APTOS",
+    "EYEPACS"
+  ],
+  "variants": [
+    "no_mask",
+    "hard_mask",
+    "fixed_feather",
+    "adaptive_feather"
+  ],
+  "seeds": [
+    22,
+    42,
+    44,
+    73,
+    123,
+    1012,
+    1729,
+    2024,
+    4060,
+    5432
+  ],
+  "splits": [
+    "val_eval",
+    "int_test",
+    "hold_out",
+    "external"
+  ],
+  "external_datasets": [
+    "MESSIDOR2"
+  ],
+  "duplicate_conditions_omitted": 0,
+  "reference_variant": "no_mask",
+  "seed_treatment": "categorical blocking factor (C(seed)); never a continuous numeric predictor",
+  "primary_outcome": "QWK on hold_out when available",
+  "metrics_analyzed": [
+    "QWK",
+    "macro_F1",
+    "balanced_accuracy",
+    "accuracy",
+    "ECE",
+    "NLL",
+    "Brier"
+  ],
+  "lower_is_generally_better": [
+    "ECE",
+    "NLL",
+    "Brier"
+  ],
+  "longitudinal_model": "mixed-effects with random intercept by experiment_id; epochs are repeated measures, not independent observations",
+  "validation_caveat": "val_eval_qwk participates in checkpoint selection and early stopping; longitudinal results describe training dynamics and are not independent evidence of generalization.",
+  "interpretation_caveat": "Statistical association is not causality; practical relevance requires effect size, confidence interval, and consistency across seeds/datasets, not p-values alone.",
+  "warnings": [
+    "Colinealidad elevada en el modelo multivariable exploratorio (VIF máx. 1208.36); los coeficientes no deben interpretarse causalmente."
+  ],
+  "packages": {
+    "python": "3.10.1",
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.6",
+    "sklearn": "1.7.2"
+  },
+  "files": {
+    "regression_run_level.csv": "_statistical_analysis/regression_run_level.csv",
+    "regression_epoch_level.csv": "_statistical_analysis/regression_epoch_level.csv",
+    "qwk_regression_coefficients.csv": "_statistical_analysis/qwk_regression_coefficients.csv",
+    "metric_regression_coefficients.csv": "_statistical_analysis/metric_regression_coefficients.csv",
+    "pairwise_contrasts.csv": "_statistical_analysis/pairwise_contrasts.csv",
+    "mixed_effects_epoch_model.csv": "_statistical_analysis/mixed_effects_epoch_model.csv",
+    "multivariable_qwk_model.csv": "_statistical_analysis/multivariable_qwk_model.csv",
+    "correlation_matrix.csv": "_statistical_analysis/correlation_matrix.csv",
+    "vif.csv": "_statistical_analysis/vif.csv",
+    "statistical_analysis_summary.json": "_statistical_analysis/statistical_analysis_summary.json"
+  }
+}

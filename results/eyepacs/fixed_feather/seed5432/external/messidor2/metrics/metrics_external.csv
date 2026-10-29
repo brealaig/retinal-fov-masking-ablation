@@ -1,0 +1,2 @@
+source_dataset,external_dataset,variant,seed,split,n,temperature,temperature_source,compute_device,compute_device_name,accuracy,macro_F1,weighted_F1,balanced_accuracy,QWK,top2_accuracy,ECE,NLL,Brier
+EYEPACS,MESSIDOR2,fixed_feather,5432,external_test,1744,1.3500000000000005,source_val_calib,GPU,NVIDIA GeForce RTX 4060,0.4569954128440367,0.3694544336160282,0.47278568885083816,0.4626009891674118,0.32937866419673834,0.7362385321100917,0.028182157716893266,1.2200292348861694,0.6640384793281555

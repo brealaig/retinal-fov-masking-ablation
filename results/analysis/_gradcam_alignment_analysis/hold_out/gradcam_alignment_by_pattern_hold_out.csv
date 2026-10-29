@@ -1,0 +1,27 @@
+variant,seed,attention_pattern,attention_pattern_label,n,correct_rate,confidence_mean
+adaptive_feather,42,border_dominant,Dependencia potencial del borde,26,0.5384615384615384,0.6818690861646945
+adaptive_feather,42,extraretinal_dominant,Atención extrarretinal dominante,107,0.9906542056074766,0.9561068270808069
+adaptive_feather,42,extraretinal_elevated,Atención extrarretinal elevada,53,0.8113207547169812,0.670587105008791
+adaptive_feather,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,45,0.7555555555555555,0.6767287413279216
+adaptive_feather,42,mixed_or_diffuse,Atención mixta o difusa,140,0.7857142857142857,0.8048784145287105
+adaptive_feather,42,retinal_aligned,Atención predominantemente retinal,358,0.7905027932960894,0.8578955362961945
+fixed_feather,42,border_dominant,Dependencia potencial del borde,21,0.6666666666666666,0.8001465584550586
+fixed_feather,42,extraretinal_dominant,Atención extrarretinal dominante,155,0.8774193548387097,0.9048173737141394
+fixed_feather,42,extraretinal_elevated,Atención extrarretinal elevada,60,0.6166666666666667,0.8098804290095966
+fixed_feather,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,56,0.7678571428571429,0.855652738894735
+fixed_feather,42,mixed_or_diffuse,Atención mixta o difusa,108,0.8148148148148148,0.9062221949851071
+fixed_feather,42,retinal_aligned,Atención predominantemente retinal,329,0.790273556231003,0.8941093056397598
+hard_mask,42,border_dominant,Dependencia potencial del borde,15,0.7333333333333333,0.8192079961299896
+hard_mask,42,extraretinal_dominant,Atención extrarretinal dominante,80,0.9,0.9165725618600845
+hard_mask,42,extraretinal_elevated,Atención extrarretinal elevada,49,0.8367346938775511,0.8282210930269591
+hard_mask,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,67,0.7761194029850746,0.7177713015186253
+hard_mask,42,mixed_or_diffuse,Atención mixta o difusa,154,0.7402597402597403,0.8297610621560704
+hard_mask,42,peripheral_dominant,Atención periférica elevada,1,1.0,0.9952021837234496
+hard_mask,42,retinal_aligned,Atención predominantemente retinal,363,0.7878787878787878,0.8590693615028024
+no_mask,42,border_dominant,Dependencia potencial del borde,6,0.8333333333333334,0.9043693542480469
+no_mask,42,extraretinal_dominant,Atención extrarretinal dominante,74,0.9054054054054054,0.9049152099602932
+no_mask,42,extraretinal_elevated,Atención extrarretinal elevada,42,0.8095238095238095,0.9178161982979093
+no_mask,42,mixed_extraretinal_border,Patrón mixto: fondo y borde,113,0.7433628318584071,0.8072355299924328
+no_mask,42,mixed_or_diffuse,Atención mixta o difusa,76,0.8026315789473685,0.8720374087754049
+no_mask,42,peripheral_dominant,Atención periférica elevada,10,0.8,0.901062834262848
+no_mask,42,retinal_aligned,Atención predominantemente retinal,408,0.7965686274509803,0.8867786769189087

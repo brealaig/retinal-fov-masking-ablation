@@ -1,0 +1,30 @@
+{
+  "dataset": "EYEPACS",
+  "variant": "adaptive_feather",
+  "seed": 4060,
+  "temperature": 1.4000000000000006,
+  "calibration_nll": 1.1688240766525269,
+  "raw_val_calib": {
+    "accuracy": 0.5014204545454546,
+    "macro_F1": 0.483342728229883,
+    "weighted_F1": 0.5106122679651315,
+    "balanced_accuracy": 0.4890474093135714,
+    "QWK": 0.6768181381496782,
+    "top2_accuracy": 0.7599431818181818,
+    "ECE": 0.07302719126032158,
+    "NLL": 1.1995660066604614,
+    "Brier": 0.6433349847793579
+  },
+  "temperature_scaled_val_calib": {
+    "accuracy": 0.5014204545454546,
+    "macro_F1": 0.483342728229883,
+    "weighted_F1": 0.5106122679651315,
+    "balanced_accuracy": 0.4890474093135714,
+    "QWK": 0.6768181381496782,
+    "top2_accuracy": 0.7599431818181818,
+    "ECE": 0.051012758715924894,
+    "NLL": 1.1688240766525269,
+    "Brier": 0.6328170895576477
+  },
+  "note": "Temperatura ajustada usando solo val_calib. val_eval/int_test/hold_out no se usan para ajustar T."
+}

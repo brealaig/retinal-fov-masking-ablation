@@ -35,38 +35,22 @@ retinal-fov-masking-ablation/
 │   ├── README.md
 │   ├── aptos2019/
 │   │   ├── adaptive_feather/
-│   │   │   ├── seed42/
-│   │   │   ├── seed123/
-│   │   │   └── seed2024/
+│   │   │   └── seed*/
 │   │   ├── fixed_feather/
-│   │   │   ├── seed42/
-│   │   │   ├── seed123/
-│   │   │   └── seed2024/
+│   │   │   └── seed*/
 │   │   ├── hard_mask/
-│   │   │   ├── seed42/
-│   │   │   ├── seed123/
-│   │   │   └── seed2024/
+│   │   │   └── seed*/
 │   │   └── no_mask/
-│   │       ├── seed42/
-│   │       ├── seed123/
-│   │       └── seed2024/
+│   │       └── seed*/
 │   └── eyepacs/
 │       ├── adaptive_feather/
-│       │   ├── seed42/
-│       │   ├── seed123/
-│       │   └── seed2024/
+│       │   └── seed*/
 │       ├── fixed_feather/
-│       │   ├── seed42/
-│       │   ├── seed123/
-│       │   └── seed2024/
+│       │   └── seed*/
 │       ├── hard_mask/
-│       │   ├── seed42/
-│       │   ├── seed123/
-│       │   └── seed2024/
+│       │   └── seed*/
 │       └── no_mask/
-│           ├── seed42/
-│           ├── seed123/
-│           └── seed2024/
+│           └── seed*/
 ├── scripts/
 │   ├── Pipeline/
 │   │   ├── rd_on_the_fly_mask_ablation.py
@@ -636,33 +620,7 @@ The reported experimental design combines:
 multiple random seeds
 ```
 
-The repository results currently use:
-
-```text
-42
-123
-2024
-```
-
-A complete dataset-level matrix is therefore:
-
-```text
-no_mask × 42
-no_mask × 123
-no_mask × 2024
-
-hard_mask × 42
-hard_mask × 123
-hard_mask × 2024
-
-fixed_feather × 42
-fixed_feather × 123
-fixed_feather × 2024
-
-adaptive_feather × 42
-adaptive_feather × 123
-adaptive_feather × 2024
-```
+The final manuscript-associated result release contains **10 matched random seeds per dataset–strategy combination**. The exact seed values are recorded in `results/_manifests/experiment_matrix.csv` and `results/_manifests/validation_summary.json`.
 
 On Windows PowerShell, this can be automated:
 
